@@ -2,11 +2,16 @@ import time
 from selenium import webdriver
 from fake_useragent import UserAgent
 from scrapy.http import HtmlResponse
+import get_proxy
+import random
 
 class LRTKDownloaderMiddleware(object):
     def __init__(self):
         self.ug = UserAgent()
     def process_request(self,request,spider):
+        proxys = get_proxy()
+        proxy = random.choice(proxys)
+        request.meta['proxy'] = proxy
         request.headers.setdefault("User-Agent",self.ug.random)
         driver = webdriver.PhantomJS()
         driver.get(request.url)

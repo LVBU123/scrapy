@@ -1,5 +1,6 @@
 import pymysql
 from XcSpider import settings
+import requests
 
 MYSQL_HOSTS = settings.MYSQL_HOSTS
 MYSQL_USER = settings.MYSQL_USER
@@ -9,6 +10,8 @@ MYSQL_DB = settings.MYSQL_DB
 
 db = pymysql.connect(host=MYSQL_HOSTS,user=MYSQL_USER,password=MYSQL_PASSWORD,port=MYSQL_PORT,database=MYSQL_DB,charset='utf8')
 cursor = db.cursor()
+
+
 
 class Sql():
     @classmethod
@@ -40,3 +43,25 @@ class Sql():
         }
         cursor.execute(sql,value)
         return cursor.fetchall()[0]
+
+class SelectMySQL():
+    @classmethod
+    def select_data(cls, ipaddress, type, port):
+        try:
+            proxy = type.lower() + '://' + ipaddress + ':' + str(port)
+            url = 'http://www.baidu.com'
+            protocol = 'https' if type == 'https' else 'http'
+            proxies = {
+                protocol: proxy,
+            }
+            print(proxies)
+            try:
+                print('开始请求')
+                response = requests.get(url, proxies=proxies, timeout=5)
+                print(response.status_code)
+                if response.status_code == 200:
+                    return True
+            except:
+                pass
+        except:
+            pass

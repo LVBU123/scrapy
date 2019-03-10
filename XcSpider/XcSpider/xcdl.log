@@ -1,0 +1,1400 @@
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '166天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '60.216.101.46',
+ 'isanonymous': '高匿',
+ 'port': '59351',
+ 'serveraddr': '山东济南',
+ 'type': 'HTTP',
+ 'verificationtime': '10分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '59.62.165.18',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江西宜春',
+ 'type': 'HTTPS',
+ 'verificationtime': '10分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '122天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '210.22.176.146',
+ 'isanonymous': '高匿',
+ 'port': '32153',
+ 'serveraddr': '上海',
+ 'type': 'HTTPS',
+ 'verificationtime': '10分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '183.148.139.150',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '浙江台州',
+ 'type': 'HTTP',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '112.85.164.151',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江苏南通',
+ 'type': 'HTTP',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '53天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '121.61.0.191',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '湖北咸宁',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '88天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '115.182.212.169',
+ 'isanonymous': '高匿',
+ 'port': '8080',
+ 'serveraddr': '北京',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '59.62.164.102',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江西宜春',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '111.79.198.64',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江西赣州',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '26天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.209.55.11',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '湖北仙桃',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '22天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '124.79.167.34',
+ 'isanonymous': '透明',
+ 'port': '9797',
+ 'serveraddr': '上海',
+ 'type': 'HTTPS',
+ 'verificationtime': '10分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '221.205.111.210',
+ 'isanonymous': '透明',
+ 'port': '9797',
+ 'serveraddr': '山西太原',
+ 'type': 'HTTPS',
+ 'verificationtime': '10分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '74天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '121.69.46.178',
+ 'isanonymous': '透明',
+ 'port': '9000',
+ 'serveraddr': '吉林长春',
+ 'type': 'HTTPS',
+ 'verificationtime': '2小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '164天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '118.182.33.6',
+ 'isanonymous': '透明',
+ 'port': '32559',
+ 'serveraddr': '甘肃定西',
+ 'type': 'HTTP',
+ 'verificationtime': '4小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '107天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '180.140.191.233',
+ 'isanonymous': '透明',
+ 'port': '36820',
+ 'serveraddr': '广西南宁',
+ 'type': 'HTTP',
+ 'verificationtime': '5小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '155天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '221.6.32.214',
+ 'isanonymous': '透明',
+ 'port': '50514',
+ 'serveraddr': '江苏南京',
+ 'type': 'HTTP',
+ 'verificationtime': '7小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '564天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '58.243.50.184',
+ 'isanonymous': '透明',
+ 'port': '53281',
+ 'serveraddr': '安徽合肥',
+ 'type': 'HTTP',
+ 'verificationtime': '7小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '125.123.127.182',
+ 'isanonymous': '透明',
+ 'port': '9000',
+ 'serveraddr': '浙江嘉兴市桐乡',
+ 'type': 'HTTPS',
+ 'verificationtime': '9小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '119.123.173.157',
+ 'isanonymous': '透明',
+ 'port': '9797',
+ 'serveraddr': '广东深圳',
+ 'type': 'HTTPS',
+ 'verificationtime': '12小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1230天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '124.207.82.166',
+ 'isanonymous': '透明',
+ 'port': '8008',
+ 'serveraddr': '北京',
+ 'type': 'HTTP',
+ 'verificationtime': '15小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '22天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '124.79.167.34',
+ 'isanonymous': '透明',
+ 'port': '9797',
+ 'serveraddr': '上海',
+ 'type': 'HTTPS',
+ 'verificationtime': '6分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '4天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '112.87.70.101',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江苏宿迁',
+ 'type': 'HTTPS',
+ 'verificationtime': '6分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '221.205.111.210',
+ 'isanonymous': '透明',
+ 'port': '9797',
+ 'serveraddr': '山西太原',
+ 'type': 'HTTPS',
+ 'verificationtime': '6分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '2天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '27.189.135.84',
+ 'isanonymous': '高匿',
+ 'port': '53281',
+ 'serveraddr': '河北廊坊',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '59.62.164.102',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江西宜春',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '111.79.198.64',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江西赣州',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '26天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.209.55.11',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '湖北仙桃',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '59.62.164.246',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江西宜春',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '114.230.69.254',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江苏扬州',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '112.85.130.174',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江苏南通',
+ 'type': 'HTTPS',
+ 'verificationtime': '2小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '166天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '60.216.101.46',
+ 'isanonymous': '高匿',
+ 'port': '59351',
+ 'serveraddr': '山东济南',
+ 'type': 'HTTP',
+ 'verificationtime': '6分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '5小时',
+ 'country': '',
+ 'ipaddress': '140.143.248.213',
+ 'isanonymous': '透明',
+ 'port': '3128',
+ 'serveraddr': '',
+ 'type': 'HTTP',
+ 'verificationtime': '6分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '183.148.139.150',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '浙江台州',
+ 'type': 'HTTP',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '112.85.164.151',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江苏南通',
+ 'type': 'HTTP',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '183.148.135.118',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '浙江台州',
+ 'type': 'HTTP',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '122.193.247.131',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江苏南通',
+ 'type': 'HTTP',
+ 'verificationtime': '2小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.209.55.31',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '湖北仙桃',
+ 'type': 'HTTP',
+ 'verificationtime': '2小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '155天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '111.75.223.9',
+ 'isanonymous': '高匿',
+ 'port': '35918',
+ 'serveraddr': '江西',
+ 'type': 'HTTP',
+ 'verificationtime': '2小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '59.62.164.239',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江西宜春',
+ 'type': 'HTTP',
+ 'verificationtime': '3小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '183.148.144.218',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '浙江台州',
+ 'type': 'HTTP',
+ 'verificationtime': '3小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '2080天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '121.31.150.165',
+ 'isanonymous': '高匿',
+ 'port': '6666',
+ 'serveraddr': '广西北海',
+ 'type': 'socks4/5',
+ 'verificationtime': '3 月前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1980天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '182.33.217.116',
+ 'isanonymous': '高匿',
+ 'port': '6666',
+ 'serveraddr': '山东潍坊',
+ 'type': 'socks4/5',
+ 'verificationtime': '5 月前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1982天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '121.31.103.33',
+ 'isanonymous': '高匿',
+ 'port': '6666',
+ 'serveraddr': '广西防城港',
+ 'type': 'socks4/5',
+ 'verificationtime': '8 月前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1921天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '113.121.245.32',
+ 'isanonymous': '高匿',
+ 'port': '6667',
+ 'serveraddr': '山东德州',
+ 'type': 'socks4/5',
+ 'verificationtime': '9 月前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1915天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '110.73.33.207',
+ 'isanonymous': '高匿',
+ 'port': '6673',
+ 'serveraddr': '广西防城港',
+ 'type': 'socks4/5',
+ 'verificationtime': '10 月前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1813天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '112.114.78.54',
+ 'isanonymous': '高匿',
+ 'port': '6673',
+ 'serveraddr': '云南临沧',
+ 'type': 'socks4/5',
+ 'verificationtime': '1 年前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1808天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '112.114.76.176',
+ 'isanonymous': '高匿',
+ 'port': '6668',
+ 'serveraddr': '云南临沧',
+ 'type': 'socks4/5',
+ 'verificationtime': '1 年前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1571天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '114.239.253.38',
+ 'isanonymous': '高匿',
+ 'port': '6666',
+ 'serveraddr': '江苏宿迁市泗阳县',
+ 'type': 'socks4/5',
+ 'verificationtime': '1 年前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1556天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '220.179.214.77',
+ 'isanonymous': '高匿',
+ 'port': '6666',
+ 'serveraddr': '安徽铜陵',
+ 'type': 'socks4/5',
+ 'verificationtime': '大约 2 年'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1458天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '114.139.48.8',
+ 'isanonymous': '高匿',
+ 'port': '6668',
+ 'serveraddr': '贵州遵义',
+ 'type': 'socks4/5',
+ 'verificationtime': '2 年前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '167天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '61.184.109.33',
+ 'isanonymous': '高匿',
+ 'port': '61320',
+ 'serveraddr': '湖北黄石市大冶',
+ 'type': 'HTTP',
+ 'verificationtime': '10分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '4天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '112.87.70.101',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江苏宿迁',
+ 'type': 'HTTPS',
+ 'verificationtime': '10分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '59.62.166.197',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江西宜春',
+ 'type': 'HTTP',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.209.56.121',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '湖北仙桃',
+ 'type': 'HTTP',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '8天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.209.57.163',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '湖北仙桃',
+ 'type': 'HTTP',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '2天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '27.189.135.84',
+ 'isanonymous': '高匿',
+ 'port': '53281',
+ 'serveraddr': '河北廊坊',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '183.148.135.118',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '浙江台州',
+ 'type': 'HTTP',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '111.79.199.39',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江西赣州',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '183.148.148.142',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '浙江台州',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.209.57.82',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '湖北仙桃',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '5小时',
+ 'country': '',
+ 'ipaddress': '140.143.248.213',
+ 'isanonymous': '透明',
+ 'port': '3128',
+ 'serveraddr': '',
+ 'type': 'HTTP',
+ 'verificationtime': '10分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '21天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.85.46.113',
+ 'isanonymous': '透明',
+ 'port': '8080',
+ 'serveraddr': '北京',
+ 'type': 'HTTP',
+ 'verificationtime': '2小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '209天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '222.74.61.98',
+ 'isanonymous': '透明',
+ 'port': '53281',
+ 'serveraddr': '内蒙古包头',
+ 'type': 'HTTP',
+ 'verificationtime': '4小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.62.149.245',
+ 'isanonymous': '透明',
+ 'port': '8118',
+ 'serveraddr': '辽宁抚顺',
+ 'type': 'HTTPS',
+ 'verificationtime': '4小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1194天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '58.249.55.222',
+ 'isanonymous': '透明',
+ 'port': '9797',
+ 'serveraddr': '广东广州',
+ 'type': 'HTTP',
+ 'verificationtime': '5小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '5天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '203.86.3.22',
+ 'isanonymous': '透明',
+ 'port': '8080',
+ 'serveraddr': '广东深圳',
+ 'type': 'HTTPS',
+ 'verificationtime': '7小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '120天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '221.11.105.70',
+ 'isanonymous': '透明',
+ 'port': '43881',
+ 'serveraddr': '陕西汉中市汉台区',
+ 'type': 'HTTPS',
+ 'verificationtime': '9小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '680天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '123.139.56.238',
+ 'isanonymous': '透明',
+ 'port': '9999',
+ 'serveraddr': '陕西西安',
+ 'type': 'HTTPS',
+ 'verificationtime': '10小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '221.11.105.71',
+ 'isanonymous': '透明',
+ 'port': '56120',
+ 'serveraddr': '陕西汉中市汉台区',
+ 'type': 'HTTP',
+ 'verificationtime': '14小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '186天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '121.69.37.6',
+ 'isanonymous': '透明',
+ 'port': '9797',
+ 'serveraddr': '吉林长春',
+ 'type': 'HTTP',
+ 'verificationtime': '15小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '59.62.165.18',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江西宜春',
+ 'type': 'HTTPS',
+ 'verificationtime': '6分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '122天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '210.22.176.146',
+ 'isanonymous': '高匿',
+ 'port': '32153',
+ 'serveraddr': '上海',
+ 'type': 'HTTPS',
+ 'verificationtime': '6分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '53天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '121.61.0.191',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '湖北咸宁',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '88天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '115.182.212.169',
+ 'isanonymous': '高匿',
+ 'port': '8080',
+ 'serveraddr': '北京',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '111.79.199.39',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江西赣州',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '183.148.148.142',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '浙江台州',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.209.57.82',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '湖北仙桃',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '111.79.198.229',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江西赣州',
+ 'type': 'HTTPS',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '25天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.209.59.99',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '湖北仙桃',
+ 'type': 'HTTPS',
+ 'verificationtime': '2小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '74天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '121.69.46.178',
+ 'isanonymous': '透明',
+ 'port': '9000',
+ 'serveraddr': '吉林长春',
+ 'type': 'HTTPS',
+ 'verificationtime': '2小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '167天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '61.184.109.33',
+ 'isanonymous': '高匿',
+ 'port': '61320',
+ 'serveraddr': '湖北黄石市大冶',
+ 'type': 'HTTP',
+ 'verificationtime': '6分钟前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '59.62.166.197',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江西宜春',
+ 'type': 'HTTP',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.209.56.121',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '湖北仙桃',
+ 'type': 'HTTP',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '8天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.209.57.163',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '湖北仙桃',
+ 'type': 'HTTP',
+ 'verificationtime': '1小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '219.139.140.246',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '湖北荆州',
+ 'type': 'HTTP',
+ 'verificationtime': '2小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '26天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.209.56.32',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '湖北仙桃',
+ 'type': 'HTTP',
+ 'verificationtime': '2小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '21天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.85.46.113',
+ 'isanonymous': '透明',
+ 'port': '8080',
+ 'serveraddr': '北京',
+ 'type': 'HTTP',
+ 'verificationtime': '2小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '9天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '59.62.164.212',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江西宜春',
+ 'type': 'HTTP',
+ 'verificationtime': '2小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1分钟',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.209.58.198',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '湖北仙桃',
+ 'type': 'HTTP',
+ 'verificationtime': '3小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '32天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '59.62.164.4',
+ 'isanonymous': '高匿',
+ 'port': '9999',
+ 'serveraddr': '江西宜春',
+ 'type': 'HTTP',
+ 'verificationtime': '3小时前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '2146天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '121.31.193.132',
+ 'isanonymous': '高匿',
+ 'port': '6675',
+ 'serveraddr': '广西桂林',
+ 'type': 'socks4/5',
+ 'verificationtime': '4 月前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '2011天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '117.69.98.216',
+ 'isanonymous': '高匿',
+ 'port': '6666',
+ 'serveraddr': '安徽宿州',
+ 'type': 'socks4/5',
+ 'verificationtime': '6 月前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1992天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '113.121.245.231',
+ 'isanonymous': '高匿',
+ 'port': '6675',
+ 'serveraddr': '山东德州',
+ 'type': 'socks4/5',
+ 'verificationtime': '9 月前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1977天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '218.73.130.59',
+ 'isanonymous': '高匿',
+ 'port': '6675',
+ 'serveraddr': '浙江温州',
+ 'type': 'socks4/5',
+ 'verificationtime': '9 月前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1920天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '110.73.30.246',
+ 'isanonymous': '高匿',
+ 'port': '6666',
+ 'serveraddr': '广西防城港',
+ 'type': 'socks4/5',
+ 'verificationtime': '11 月前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1803天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '171.38.64.67',
+ 'isanonymous': '高匿',
+ 'port': '6675',
+ 'serveraddr': '广西玉林',
+ 'type': 'socks4/5',
+ 'verificationtime': '1 年前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1763天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '222.172.239.69',
+ 'isanonymous': '高匿',
+ 'port': '6666',
+ 'serveraddr': '云南昆明市呈贡县',
+ 'type': 'socks4/5',
+ 'verificationtime': '1 年前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1561天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '116.28.106.165',
+ 'isanonymous': '高匿',
+ 'port': '6666',
+ 'serveraddr': '广东中山',
+ 'type': 'socks4/5',
+ 'verificationtime': '大约 2 年'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1489天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '110.73.32.7',
+ 'isanonymous': '高匿',
+ 'port': '6666',
+ 'serveraddr': '广西防城港',
+ 'type': 'socks4/5',
+ 'verificationtime': '大约 2 年'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'
+2019-03-10 22:13:16 [scrapy.core.scraper] ERROR: Error processing {'alivetime': '1416天',
+ 'country': '//fs.xicidaili.com/images/flag/cn.png',
+ 'ipaddress': '111.124.231.101',
+ 'isanonymous': '高匿',
+ 'port': '6668',
+ 'serveraddr': '贵州铜仁地区铜仁',
+ 'type': 'socks4/5',
+ 'verificationtime': '2 年前'}
+Traceback (most recent call last):
+  File "/var/sw/anaconda3/envs/scrapy/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/tlxy/scrapy/XcSpider/XcSpider/mysqlpipline/pipelines.py", line 23, in process_item
+    if SelectMySQL.select_data(ipaddress,type,port) == True:
+TypeError: select_data() missing 1 required positional argument: 'port'

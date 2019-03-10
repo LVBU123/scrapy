@@ -1,5 +1,5 @@
 from XcSpider.items import XcdlItem
-from mysqlpipline.sql import Sql
+from mysqlpipline.sql import Sql,SelectMySQL
 
 class XiciDailiPipeline():
     def process_item(self,item,spider):
@@ -19,7 +19,9 @@ class XiciDailiPipeline():
                 type = item['type']
                 alivetime = item['alivetime']
                 verificationtime = item['verificationtime']
-                Sql.insert_db_xici(country,ipaddress,port,serveraddr,isanonymous,type,alivetime,verificationtime)
-                print('插入完成')
+
+                if SelectMySQL.select_data(ipaddress,type,port) == True:
+                    Sql.insert_db_xici(country,ipaddress,port,serveraddr,isanonymous,type,alivetime,verificationtime)
+                    print('插入完成')
         else:
             print('类型不对')
